@@ -21,10 +21,16 @@
     <entry key='database.user'>sa</entry>
     <entry key='database.password'></entry>
 
-    <!--<entry key='server.instantAcknowledgement'>true</entry>
-    <entry key='server.buffering.threshold'>5000</entry>-->
+    <entry key='server.instantAcknowledgement'>true</entry>
+    <!--entry key='server.buffering.threshold'>5000</entry>-->
 
     <entry key='atrack.custom'>true</entry>
     <entry key='intellitrac.port'>6037</entry>
+
+    <entry key="web.port">8085</entry>
+    <entry key="protocols.enable">teltonika</entry>
+    <entry key="teltonika.can">true</entry>
+    <entry key="teltonika.ack">true</entry>
+    <entry key="teltonika.port">45027</entry>
 
 </properties>
