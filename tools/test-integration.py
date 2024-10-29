@@ -130,7 +130,7 @@ messages = {
     'bstpl': 'BSTPL$1,123456789012345,V,200722,045113,00.000000,0,00.00000,0,0,0,000,00,0,17,1,1,0,0,00.01,0,04.19,15B_190821,8991000907387031196F,12.27#',
 }
 
-baseUrl = 'http://localhost:8082'
+baseUrl = 'http://localhost:8085'
 user = { 'email' : 'admin', 'password' : 'admin' }
 
 debug = '-v' in sys.argv

@@ -751,13 +751,13 @@ public final class Keys {
             List.of(KeyType.CONFIG));
 
     /**
-     * Web interface TCP port number. By default, Traccar uses port 8082. To avoid specifying port in the browser you
+     * Web interface TCP port number. By default, Traccar uses port 8085. To avoid specifying port in the browser you
      * can set it to 80 (default HTTP port).
      */
     public static final ConfigKey<Integer> WEB_PORT = new IntegerConfigKey(
             "web.port",
             List.of(KeyType.CONFIG),
-            8082);
+            8085);
 
     /**
      * Maximum API requests per second. Above this limit requests and delayed and throttled.
