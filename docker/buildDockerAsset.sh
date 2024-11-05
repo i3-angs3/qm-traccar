@@ -1,4 +1,4 @@
-VERSION=v6.5.1
+VERSION=6.5.1
 PLATFORM=other
 
 #Please run script in docker folder
