@@ -1,0 +1,12 @@
+Steps to create docker asset, build & upload image
+    1. Update source codes with required changes
+    2. Commit changes and tag both server and web code in repo with new VERSION number
+        buildDockerAsset.sh
+    3. Update VERSION number in script
+    4. Run script to generate aseet traccar-other-VERSION.zip
+    5. Create a new release with new tag of VERSION number and upload traccar-other-VERSION.zip file as additional asset
+        Dockerfile
+    6. Update VERSION number in environment variable QM_TRACCAR_VERSION
+        buildpushDockerImage.sh
+    7. Update VERSION number in environment variable IMAGE_VERSION
+    8. Run script to build and push to docker hub of DOCKER_USER/DOCKER_REPO
